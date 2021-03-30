@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item >경기</item>
+        <item >서울</item>
+        <item >충청</item>
+        <item >전라</item>
+        <item >경상</item>
+        <item >강원</item>
+    </string-array>
+    <string-array name="town">
+        <item >용인</item>
+        <item >수원</item>
+        <item >화성</item>
+        <item >연천</item>
+        <item >김포</item>
+        <item >고양</item>
+        <item >의정부</item>
+        <item >성남</item>
+        <item >이천</item>
+    </string-array>
+    <string-array name="seoul">
+        <item >강남</item>
+        <item >강북</item>
+        <item >강서</item>
+        <item >강동</item>
+        <item >종로</item>
+        <item >용산</item>
+        <item >마포</item>
+        <item >서초</item>
+        <item >관악</item>
+        <item >송파</item>
+    </string-array>
+</resources>

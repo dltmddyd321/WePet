@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tistory.webnautes.wepet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Around" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC-3Vr-YUrAaj7I_z_ruLAVF7EjHQOndGc" />
+
+        <activity android:name=".Reple" />
+        <activity android:name=".Qna" />
+        <activity android:name=".Member" />
+        <activity android:name=".Event" />
+        <activity android:name=".Login" />
+        <activity android:name=".Local" />
+        <activity android:name=".Identify" />
+        <activity android:name=".Hurry" />
+        <activity android:name=".HospList" />
+        <activity android:name=".Hospital_Review" />
+        <activity android:name=".Hospital_Information" />
+        <activity android:name=".Filter" />
+        <activity android:name=".Cop" />
+        <activity android:name=".Comu" />
+        <activity android:name=".Setting" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

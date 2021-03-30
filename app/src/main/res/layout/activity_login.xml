@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/idInput"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="151dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="373dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/idInput"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="Password" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="Log in" />
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="회원가입" />
+    </LinearLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember login"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/noLogin"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="비회원 이용"
+        android:textAllCaps="false" />
+
+</LinearLayout>
